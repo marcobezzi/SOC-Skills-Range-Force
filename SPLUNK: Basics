@@ -1,5 +1,25 @@
 # Splunk is a tool that captures, indexes, and correlates real-time data which can then be used to generate graphs, reports, alerts, dashboards, and visualizations.
 
+## SPLUNK ENTEPRISE FUNCTIONS
+
+• Index Data - Collects data from any source and process it as events (Computers, Network devices, VM, Internet & communication devices, Sensors, Databases, logs, configurations, alerts, metrics, scripts, clickstream, changes, tickets. )
+• Search & Investigate - Events are analyzed and statistics are derived from them using the Splunk search language.
+• Add Knowledge - This allows user to affect how data is being interpreted.
+• Monitor Alert -  Monitor infranstructure in real time to identify issues & attacks before they impact services and customers. ALERTS can be programmed.
+• Report & Analyze - Collect reports and visualizations into a dashboard to ease interpretation and analysis.
+
+## SPLUNK PROCESSING COMPONENTS
+
+• Indexers - Process incoming data and stores results as Events
+• Search Head - Handles search requests from users and distribute requests to indexers. Profide users with Dashboard & Reports.
+• Forwarder - Primary way data is supplied for Indexing.
+
+## SPLUNK Single-Instance Deployment
+
+• Input
+• Parsing
+• Indexing 
+• Searching
 
 
 

@@ -47,8 +47,15 @@
 • How many times was there an sshd session opened from 2020-05-17 to 2020-05-23? 647
 
 # Date and Time Range
+
 • How many events include googlebot between 17:00 on 2020-05-1 and 08:00 on 2020-05-04? 363
 • What is the version of the googlebot? 2.1
 • How many times was category.screen loaded on 2020-04-29 between 14:00 and 14:30? 26
 
+# 3. Query Using Fields
+# Field Searching
+
+• How many events have the sourcetype of access_combined_wcookie? 131645
+• How many events have the action value set to purchase? 19235
+• How many times has a purchase action had a referer_domain of http://www.google.com since 2020-05-18? 6
 

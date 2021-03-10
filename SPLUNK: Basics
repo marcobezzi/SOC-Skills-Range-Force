@@ -29,3 +29,16 @@
 • What is the date of the Most Recent Event ? 2020-05-27
 • What is the username of the most recent failed login? ubuntu
 • What is the source of the most recent event? /var/log/splunk/default/linux_s_30DAY.log
+
+# Multiple Term Searches
+
+• How many events contain both failed and root? 7283
+• How many events contain the phrase "failed password for root"? 7282
+
+# 2.  Filtering by Time
+# Selecting on the Timeline
+
+• How many events include "failed password for root" during the 4 days starting on 2020-05-06? 1005
+• What IP address was seen on the last event of 2020-05-02? 12.130.60.5
+
+# 

@@ -21,5 +21,11 @@
 • Indexing 
 • Searching
 
+## LAB ANSWERS
 
-
+# 1. Building a Basic Query
+# Search Results
+ 
+• What is the date of the Most Recent Event ? 2020-05-27
+• What is the username of the most recent failed login? ubuntu
+• What is the source of the most recent event? /var/log/splunk/default/linux_s_30DAY.log

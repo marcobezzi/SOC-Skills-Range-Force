@@ -41,4 +41,14 @@
 • How many events include "failed password for root" during the 4 days starting on 2020-05-06? 1005
 • What IP address was seen on the last event of 2020-05-02? 12.130.60.5
 
-# 
+# Date Range
+
+• How many failed logins with user tomcat were there before 2020-05-15? 254
+• How many times was there an sshd session opened from 2020-05-17 to 2020-05-23? 647
+
+# Date and Time Range
+• How many events include googlebot between 17:00 on 2020-05-1 and 08:00 on 2020-05-04? 363
+• What is the version of the googlebot? 2.1
+• How many times was category.screen loaded on 2020-04-29 between 14:00 and 14:30? 26
+
+

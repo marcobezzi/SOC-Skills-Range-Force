@@ -21,6 +21,25 @@
 • Indexing 
 • Searching
 
+# SPLUNK NAVIGATION AND SEARCHING
+
+Searching. 
+
+• Adding an asterisk before a word returns any event including the beginning of that word. This is to cast a wider net. A search of *fail will search for fail, failure, failed, etc.  
+
+• Uppercase Booleans of AND, OR and NOT can be used with multiple terms. For example, the search "failed NOT password", or "failed AND password". 
+
+• Booleans have an order of operation. First NOT, then OR, finally AND. It is better to use parentheses.  
+
+• You can use a backslash character \" to search for quotes.  
+
+• The Fields sidebar shows all the fields that were extracted at search time. Selected fields are those of the utmost importance. The default fields host, source and source type are selected by default. Interesting Fields are fields that have values in at least 20% of the events. The letter "a" denotes a string value. The hashtag denotes a numeral.  
+
+• You can refine searches by using fields in them. For example sourcetype=linux_secure. Other operators can be !=, >, >=, <, <=. Wildcards (*) and Booleans can also be used in field searches.  
+
+• The IN operator can also be used to include results in a parentheses. 
+
+
 ## LAB ANSWERS
 
 # 1. Building a Basic Query

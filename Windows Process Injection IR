@@ -1,0 +1,7 @@
+# There is a malware infestation in Contoso.Azure domain. Sysmon is running on the desktop and log files are accessible on the SIEM (Splunk) The task is to track down the latest offender.
+
+# First Step: Investigate the Situation
+
+• The file extension of created files are .jpg (This is found by right clicking the created files on desktop and viewing the properties)
+• The name of the process writing files on the desktop is spoolsv.exe
+• The log provider is Microsoft-Windows-Sysmon/Operational

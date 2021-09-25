@@ -5,3 +5,23 @@
 • The file extension of created files are .jpg (This is found by right clicking the created files on desktop and viewing the properties)
 • The name of the process writing files on the desktop is spoolsv.exe
 • The log provider is Microsoft-Windows-Sysmon/Operational
+
+# Second Step: Investigation Pivoting
+
+• The two most common Sysmon event IDs from the offending process? 11, 3
+• The parent process is services.exe
+
+Hints
+• Look for ParentImage field under the All Fields dialog.
+
+Solution
+Search Splunk for:
+
+Image="C:\\\Windows\\\System32\\\spoolsv.exe" | top EventCode
+
+# Third Step: Stopping the Process
+
+•Open PowerShell
+Run the following command in PowerShell:
+Stop-Process -Name "spoolsv"
+
